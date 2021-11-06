@@ -1,0 +1,9 @@
+{
+	"name": "FilePicker-ADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "285e5ea6-b0da-4687-9c6b-4220d5c19756",
+		"tenantId": "7f8770b3-4bcc-490c-8227-86597c051359"
+	}
+}
