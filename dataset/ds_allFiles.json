@@ -1,0 +1,39 @@
+{
+	"name": "ds_allFiles",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "filestore"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Duration",
+				"type": "String"
+			},
+			{
+				"name": "Pulse",
+				"type": "String"
+			},
+			{
+				"name": "Maxpulse",
+				"type": "String"
+			},
+			{
+				"name": "Calories",
+				"type": "String"
+			}
+		]
+	}
+}
